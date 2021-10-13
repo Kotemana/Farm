@@ -34,6 +34,10 @@ namespace Farm
             }
         }
 
+        /// <summary>
+        /// Adds gardenbed if farm has enough area
+        /// </summary>
+        /// <param name="gardenbed">Gardenbed to add</param>
         public void AddGardenbed(Gardenbed gardenbed)
         {
             if (Area - AreaConsumed() < gardenbed.Area)
