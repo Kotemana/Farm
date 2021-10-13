@@ -8,6 +8,7 @@ namespace Farm
 {
     public class Farm
     {
+        public Person Director { get; set; }
         public string Name { get; set; }
         public int Area { get; set; }
         public List<Gardenbed> Gardenbeds { get; set; } = new List<Gardenbed>();
